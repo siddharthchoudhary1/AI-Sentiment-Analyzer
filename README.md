@@ -1,12 +1,24 @@
-# AI-Powered Sentiment Analyzer for Product Reviews
+Project Description
+Purpose:
+Develop an AI-driven sentiment analysis tool to classify product reviews as Positive, Negative, or Neutral.
 
-This project is a simple yet powerful AI application that analyzes product reviews and classifies them as **Positive, Negative, or Neutral** using a machine learning model.
+Approach:
+Uses TF-IDF vectorization to convert text data into numerical features suitable for machine learning.
 
-## Features
-- Takes a product review as input.
-- Processes the text using **TF-IDF** vectorization.
-- Uses a **Logistic Regression** classifier to predict sentiment.
-- Includes an interactive **Streamlit app** for easy demo.
+Model:
+Implements a Logistic Regression classifier trained on sample labeled reviews to predict sentiment categories.
 
-## Installation
-1. Clone this repository:
+Interactive Interface:
+Includes a user-friendly Streamlit web app where users can enter text reviews and receive instant sentiment feedback.
+
+Practical Application:
+Designed to help small businesses and individuals analyze customer feedback quickly and accurately without needing advanced analytics expertise.
+
+Lightweight & Extendable:
+Built with simplicity and clarity in mind, making it easy to improve by training on larger datasets or integrating advanced NLP models like transformers.
+
+Educational Value:
+Demonstrates key AI concepts such as natural language processing, feature extraction, and supervised learning, making it ideal for learning and prototyping.
+
+Future Potential:
+Can be expanded into a commercial product or integrated with other business tools for marketing insights, customer satisfaction monitoring, and reputation management.

@@ -1,24 +1,22 @@
-Project Description
-Purpose:
-Develop an AI-driven sentiment analysis tool to classify product reviews as Positive, Negative, or Neutral.
+# AI-Powered Sentiment Analyzer for Product Reviews
 
-Approach:
-Uses TF-IDF vectorization to convert text data into numerical features suitable for machine learning.
+## Overview
+This project demonstrates a simple yet effective AI application that classifies product reviews into **Positive**, **Negative**, or **Neutral** sentiment. Built using machine learning techniques, it showcases how natural language processing (NLP) can help businesses better understand customer feedback and make data-driven decisions.
 
-Model:
-Implements a Logistic Regression classifier trained on sample labeled reviews to predict sentiment categories.
+## Features
+- Processes raw text reviews using TF-IDF vectorization.
+- Uses a Logistic Regression model for sentiment classification.
+- Includes an interactive web app built with Streamlit for real-time sentiment analysis.
+- Lightweight and easy to extend with larger datasets or advanced NLP models.
 
-Interactive Interface:
-Includes a user-friendly Streamlit web app where users can enter text reviews and receive instant sentiment feedback.
+## Getting Started
 
-Practical Application:
-Designed to help small businesses and individuals analyze customer feedback quickly and accurately without needing advanced analytics expertise.
+### Prerequisites
+- Python 3.7 or higher
+- pip package manager
 
-Lightweight & Extendable:
-Built with simplicity and clarity in mind, making it easy to improve by training on larger datasets or integrating advanced NLP models like transformers.
-
-Educational Value:
-Demonstrates key AI concepts such as natural language processing, feature extraction, and supervised learning, making it ideal for learning and prototyping.
-
-Future Potential:
-Can be expanded into a commercial product or integrated with other business tools for marketing insights, customer satisfaction monitoring, and reputation management.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/AI-Sentiment-Analyzer.git
+   cd AI-Sentiment-Analyzer
